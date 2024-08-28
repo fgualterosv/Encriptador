@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Herramienta de Encriptación de Texto</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Herramienta de Encriptación de Texto</h1>
+    </header>
+    <main>
+        <section class="encryption-tool">
+            <form id="encryption-form">
+                <label for="input-text">Introduce el texto:</label>
+                <textarea id="input-text" rows="4" cols="50"></textarea>
+                <div class="button-container">
+                    <img src="encrypt-image.jpg" alt="Imagen de Encriptar">
+                    <button type="button" onclick="encryptText()">Encriptar</button>
+                </div>
+                <div class="button-container">
+                    <img src="decrypt-image.jpg" alt="Imagen de Desencriptar">
+                    <button type="button" onclick="decryptText()">Desencriptar</button>
+                </div>
+            </form>
+            <div id="output">
+                <h2>Texto Encriptado:</h2>
+                <p id="encrypted-text"></p>
+                <button type="button" onclick="copyText()">Copiar</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>© 2024 Herramienta de Encriptación de Texto</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
