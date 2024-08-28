@@ -11,7 +11,7 @@ body {
 }
 
 header, footer {
-    background-color: $primary-color;
+    background-color: rgba(245, 48, 48, 0.1);
     color: white;
     text-align: center;
     padding: 1rem 0;
@@ -26,7 +26,7 @@ main {
 }
 
 .encryption-tool {
-    background-color: white;
+    background-color: rgb(85, 33, 33);
     padding: 2rem;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -61,7 +61,7 @@ main {
             margin-bottom: 1rem;
 
             button {
-                background-color: $secondary-color;
+                background-color: rgb(45, 18, 77)
                 color: white;
                 border: none;
                 padding: 0.5rem 1rem;
